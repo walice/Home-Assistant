@@ -1,0 +1,2429 @@
+views:
+  - type: custom:grid-layout
+    title: Aglaonemas
+    path: aglaonemas
+    cards:
+      - type: markdown
+        content: '# '
+        text_only: true
+      - square: true
+        type: grid
+        cards:
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.aglaonema_mary_ann
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.aglaonema_mary_ann_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.aglaonema_mary_ann_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.aglaonema_mary_ann_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.aglaonema_mary_ann_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.aglaonema_mary_ann_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.aglaonema_pictum_tricolor
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.aglaonema_pictum_tricolor_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.aglaonema_pictum_tricolor_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.aglaonema_pictum_tricolor_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.aglaonema_pictum_tricolor_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.aglaonema_pictum_tricolor_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.aglaonema_spring_snow
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.aglaonema_spring_snow_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.aglaonema_spring_snow_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.aglaonema_spring_snow_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.aglaonema_spring_snow_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.aglaonema_spring_snow_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.aglaonema_silver_bay
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.aglaonema_silver_bay_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.aglaonema_silver_bay_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.aglaonema_silver_bay_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.aglaonema_silver_bay_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.aglaonema_silver_bay_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+        columns: 4
+  - type: custom:grid-layout
+    title: Air Plants
+    path: air_plants
+    cards:
+      - type: markdown
+        content: '# '
+        text_only: true
+      - square: true
+        type: grid
+        cards:
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.neofinetia_falcata_furan
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.neofinetia_falcata_furan_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.neofinetia_falcata_furan_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.neofinetia_falcata_furan_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.neofinetia_falcata_furan_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.neofinetia_falcata_furan_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.tillandsia_baileyi
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.tillandsia_baileyi_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.tillandsia_baileyi_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.tillandsia_baileyi_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.tillandsia_baileyi_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.tillandsia_baileyi_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.tillandsia_capitata_guzmanoides
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.tillandsia_capitata_guzmanoides_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.tillandsia_capitata_guzmanoides_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.tillandsia_capitata_guzmanoides_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.tillandsia_capitata_guzmanoides_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: >-
+                      button.tillandsia_capitata_guzmanoides_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.tillandsia_capitata_guzmanoides_2
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.tillandsia_capitata_guzmanoides_last_watering_2
+                    icon: mdi:calendar-clock
+                  - entity: sensor.tillandsia_capitata_guzmanoides_last_fertilizing_2
+                    icon: mdi:leaf
+                  - entity: sensor.tillandsia_capitata_guzmanoides_health_2
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.tillandsia_capitata_guzmanoides_complete_watering_2
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: >-
+                      button.tillandsia_capitata_guzmanoides_complete_fertilizing_2
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.tillandsia_caput_medusae
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.tillandsia_caput_medusae_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.tillandsia_caput_medusae_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.tillandsia_caput_medusae_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.tillandsia_caput_medusae_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.tillandsia_caput_medusae_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.tillandsia_caput_medusae_2
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.tillandsia_caput_medusae_last_watering_2
+                    icon: mdi:calendar-clock
+                  - entity: sensor.tillandsia_caput_medusae_last_fertilizing_2
+                    icon: mdi:leaf
+                  - entity: sensor.tillandsia_caput_medusae_health_2
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.tillandsia_caput_medusae_complete_watering_2
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.tillandsia_caput_medusae_complete_fertilizing_2
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.tillandsia_ionantha
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.tillandsia_ionantha_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.tillandsia_ionantha_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.tillandsia_ionantha_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.tillandsia_ionantha_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.tillandsia_ionantha_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.tillandsia_ionantha_mexico
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.tillandsia_ionantha_mexico_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.tillandsia_ionantha_mexico_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.tillandsia_ionantha_mexico_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.tillandsia_ionantha_mexico_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.tillandsia_ionantha_mexico_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.tillandsia_ionantha_mexico_2
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.tillandsia_ionantha_mexico_last_watering_2
+                    icon: mdi:calendar-clock
+                  - entity: sensor.tillandsia_ionantha_mexico_last_fertilizing_2
+                    icon: mdi:leaf
+                  - entity: sensor.tillandsia_ionantha_mexico_health_2
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.tillandsia_ionantha_mexico_complete_watering_2
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.tillandsia_ionantha_mexico_complete_fertilizing_2
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.tillandsia_paucifolia
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.tillandsia_paucifolia_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.tillandsia_paucifolia_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.tillandsia_paucifolia_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.tillandsia_paucifolia_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.tillandsia_paucifolia_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.tillandsia_streptophylla_guatemala
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.tillandsia_streptophylla_guatemala_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.tillandsia_streptophylla_guatemala_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.tillandsia_streptophylla_guatemala_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: >-
+                      button.tillandsia_streptophylla_guatemala_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: >-
+                      button.tillandsia_streptophylla_guatemala_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.tillandsia_tectorum_ecuador
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.tillandsia_tectorum_ecuador_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.tillandsia_tectorum_ecuador_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.tillandsia_tectorum_ecuador_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.tillandsia_tectorum_ecuador_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.tillandsia_tectorum_ecuador_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.tillandsia_tectorum
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.tillandsia_tectorum_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.tillandsia_tectorum_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.tillandsia_tectorum_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.tillandsia_tectorum_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.tillandsia_tectorum_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+  - type: custom:grid-layout
+    title: Hoyas
+    path: hoyas
+    cards:
+      - type: markdown
+        content: '# '
+        text_only: true
+      - square: true
+        type: grid
+        cards:
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.hoya_carnosa_chelsea
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.hoya_carnosa_chelsea_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.hoya_carnosa_chelsea_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.hoya_carnosa_chelsea_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.hoya_carnosa_chelsea_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.hoya_carnosa_chelsea_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.hoya_carnosa_krimson_princess
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.hoya_carnosa_krimson_princess_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.hoya_carnosa_krimson_princess_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.hoya_carnosa_krimson_princess_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.hoya_carnosa_krimson_princess_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.hoya_carnosa_krimson_princess_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.hoya_mathilde_splash
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.hoya_mathilde_splash_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.hoya_mathilde_splash_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.hoya_mathilde_splash_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.hoya_mathilde_splash_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.hoya_mathilde_splash_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.hoya_teacup_anemone
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.hoya_teacup_anemone_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.hoya_teacup_anemone_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.hoya_teacup_anemone_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.hoya_teacup_anemone_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.hoya_teacup_anemone_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+  - type: custom:grid-layout
+    title: Monsteras
+    path: monsteras
+    cards:
+      - type: markdown
+        content: '# '
+        text_only: true
+      - square: true
+        type: grid
+        cards:
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.monstera_adansonii_cutting
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.monstera_adansonii_cutting_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.monstera_adansonii_cutting_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.monstera_adansonii_cutting_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.monstera_adansonii_cutting_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.monstera_adansonii_cutting_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.monstera_adansonii
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.monstera_adansonii_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.monstera_adansonii_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.monstera_adansonii_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.monstera_adansonii_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.monstera_adansonii_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.monstera_albo
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.monstera_albo_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.monstera_albo_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.monstera_albo_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.monstera_albo_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.monstera_albo_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.monstera_thai_constellation
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.monstera_thai_constellation_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.monstera_thai_constellation_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.monstera_thai_constellation_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.monstera_thai_constellation_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.monstera_thai_constellation_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.rhaphidophora_tetrasperma
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.rhaphidophora_tetrasperma_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.rhaphidophora_tetrasperma_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.rhaphidophora_tetrasperma_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.rhaphidophora_tetrasperma_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.rhaphidophora_tetrasperma_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+  - type: custom:grid-layout
+    title: Philodendrons
+    path: philodendrons
+    cards:
+      - type: markdown
+        content: '# '
+        text_only: true
+      - square: true
+        type: grid
+        cards:
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.philodendron_brasil
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.philodendron_brasil_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.philodendron_brasil_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.philodendron_brasil_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.philodendron_brasil_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.philodendron_brasil_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.philodendron_brasil_2
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.philodendron_brasil_last_watering_2
+                    icon: mdi:calendar-clock
+                  - entity: sensor.philodendron_brasil_last_fertilizing_2
+                    icon: mdi:leaf
+                  - entity: sensor.philodendron_brasil_health_2
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.philodendron_brasil_complete_watering_2
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.philodendron_brasil_complete_fertilizing_2
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.philodendron_burle_marx
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.philodendron_burle_marx_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.philodendron_burle_marx_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.philodendron_burle_marx_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.philodendron_burle_marx_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.philodendron_burle_marx_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.philodendron_florida_ghost
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.philodendron_florida_ghost_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.philodendron_florida_ghost_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.philodendron_florida_ghost_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.philodendron_florida_ghost_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.philodendron_florida_ghost_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.philodendron_florida_green
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.philodendron_florida_green_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.philodendron_florida_green_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.philodendron_florida_green_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.philodendron_florida_green_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.philodendron_florida_green_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.philodendron_jose_buono
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.philodendron_jose_buono_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.philodendron_jose_buono_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.philodendron_jose_buono_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.philodendron_jose_buono_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.philodendron_jose_buono_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.philodendron_pink_princess
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.philodendron_pink_princess_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.philodendron_pink_princess_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.philodendron_pink_princess_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.philodendron_pink_princess_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.philodendron_pink_princess_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.philodendron_pink_princess_2
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.philodendron_pink_princess_last_watering_2
+                    icon: mdi:calendar-clock
+                  - entity: sensor.philodendron_pink_princess_last_fertilizing_2
+                    icon: mdi:leaf
+                  - entity: sensor.philodendron_pink_princess_health_2
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.philodendron_pink_princess_complete_watering_2
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.philodendron_pink_princess_complete_fertilizing_2
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.philodendron_rojo_congo
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.philodendron_rojo_congo_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.philodendron_rojo_congo_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.philodendron_rojo_congo_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+        columns: 4
+  - type: custom:grid-layout
+    title: Pothos
+    path: pothos
+    cards:
+      - type: markdown
+        content: '# '
+        text_only: true
+      - square: true
+        type: grid
+        cards:
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.golden_pothos
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.golden_pothos_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.golden_pothos_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.golden_pothos_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.golden_pothos_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.golden_pothos_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.pothos_marble_queen
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.pothos_marble_queen_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.pothos_marble_queen_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.pothos_marble_queen_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.pothos_marble_queen_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.pothos_marble_queen_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.pothos_neon
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.pothos_neon_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.pothos_neon_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.pothos_neon_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.pothos_neon_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.pothos_neon_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.scindapsus_pictus
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.scindapsus_pictus_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.scindapsus_pictus_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.scindapsus_pictus_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.scindapsus_pictus_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.scindapsus_pictus_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+  - type: custom:grid-layout
+    title: Succulents
+    path: succulents
+    cards:
+      - type: markdown
+        content: '# '
+        text_only: true
+      - square: true
+        type: grid
+        cards:
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.agave_victoriae_reginae
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.agave_victoriae_reginae_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.agave_victoriae_reginae_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.agave_victoriae_reginae_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.agave_victoriae_reginae_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.agave_victoriae_reginae_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.chocolate_drop
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.chocolate_drop_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.chocolate_drop_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.chocolate_drop_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.chocolate_drop_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.chocolate_drop_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.corpuscularia_lehmannii
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.corpuscularia_lehmannii_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.corpuscularia_lehmannii_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.corpuscularia_lehmannii_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.corpuscularia_lehmannii_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.corpuscularia_lehmannii_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.crassula_ovata_cutting
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.crassula_ovata_cutting_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.crassula_ovata_cutting_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.crassula_ovata_cutting_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.crassula_ovata_cutting_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.crassula_ovata_cutting_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.crassula_ovata_gollum
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.crassula_ovata_gollum_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.crassula_ovata_gollum_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.crassula_ovata_gollum_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.crassula_ovata_gollum_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.crassula_ovata_gollum_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.crassula_ovata_gollum_2
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.crassula_ovata_gollum_last_watering_2
+                    icon: mdi:calendar-clock
+                  - entity: sensor.crassula_ovata_gollum_last_fertilizing_2
+                    icon: mdi:leaf
+                  - entity: sensor.crassula_ovata_gollum_health_2
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.crassula_ovata_gollum_complete_watering_2
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.crassula_ovata_gollum_complete_fertilizing_2
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.crassula_ovata
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.crassula_ovata_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.crassula_ovata_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.crassula_ovata_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.crassula_ovata_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.crassula_ovata_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.crassula_ovata_2
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.crassula_ovata_last_watering_2
+                    icon: mdi:calendar-clock
+                  - entity: sensor.crassula_ovata_last_fertilizing_2
+                    icon: mdi:leaf
+                  - entity: sensor.crassula_ovata_health_2
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.crassula_ovata_complete_watering_2
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.crassula_ovata_complete_fertilizing_2
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.gasteria_gracilis
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.gasteria_gracilis_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.gasteria_gracilis_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.gasteria_gracilis_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.gasteria_gracilis_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.gasteria_gracilis_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.golden_sedum
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.golden_sedum_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.golden_sedum_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.golden_sedum_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.golden_sedum_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.golden_sedum_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.golden_sedum_2
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.golden_sedum_last_watering_2
+                    icon: mdi:calendar-clock
+                  - entity: sensor.golden_sedum_last_fertilizing_2
+                    icon: mdi:leaf
+                  - entity: sensor.golden_sedum_health_2
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.golden_sedum_complete_watering_2
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.golden_sedum_complete_fertilizing_2
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.haworthia_attenuata
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.haworthia_attenuata_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.haworthia_attenuata_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.haworthia_attenuata_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.haworthia_attenuata_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.haworthia_attenuata_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.haworthia
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.haworthia_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.haworthia_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.haworthia_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.haworthia_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.haworthia_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.haworthia_limifolia
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.haworthia_limifolia_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.haworthia_limifolia_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.haworthia_limifolia_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.haworthia_limifolia_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.haworthia_limifolia_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.haworthia_mirabilis_mundula
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.haworthia_mirabilis_mundula_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.haworthia_mirabilis_mundula_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.haworthia_mirabilis_mundula_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.haworthia_mirabilis_mundula_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.haworthia_mirabilis_mundula_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.sansevieria_trifasciata_hahnii
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.sansevieria_trifasciata_hahnii_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.sansevieria_trifasciata_hahnii_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.sansevieria_trifasciata_hahnii_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.sansevieria_trifasciata_hahnii_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.sansevieria_trifasciata_hahnii_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.schlumbergera_truncata
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.schlumbergera_truncata_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.schlumbergera_truncata_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.schlumbergera_truncata_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.schlumbergera_truncata_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.schlumbergera_truncata_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.sedum_nussbaumerianum
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.sedum_nussbaumerianum_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.sedum_nussbaumerianum_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.sedum_nussbaumerianum_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.sedum_nussbaumerianum_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.sedum_nussbaumerianum_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.succulent_wall
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.succulent_wall_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.succulent_wall_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.succulent_wall_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.succulent_wall_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.succulent_wall_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.whale_fin_snake_plant
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.whale_fin_snake_plant_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.whale_fin_snake_plant_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.whale_fin_snake_plant_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.whale_fin_snake_plant_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.whale_fin_snake_plant_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+        columns: 6
+  - type: custom:grid-layout
+    title: Others
+    path: others
+    cards:
+      - type: markdown
+        content: '# '
+        text_only: true
+      - square: true
+        type: grid
+        cards:
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.alocasia_polly
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.alocasia_polly_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.alocasia_polly_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.alocasia_polly_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.alocasia_polly_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.alocasia_polly_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.alocasia_sinuata_rumpelstiltskin
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.alocasia_sinuata_rumpelstiltskin_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.alocasia_sinuata_rumpelstiltskin_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.alocasia_sinuata_rumpelstiltskin_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.alocasia_sinuata_rumpelstiltskin_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: >-
+                      button.alocasia_sinuata_rumpelstiltskin_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.cat_palm
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.cat_palm_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.cat_palm_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.cat_palm_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.cat_palm_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.cat_palm_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.chinese_money_plant
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.chinese_money_plant_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.chinese_money_plant_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.chinese_money_plant_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.chinese_money_plant_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.chinese_money_plant_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.dragon_tree
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.dragon_tree_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.dragon_tree_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.dragon_tree_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.dragon_tree_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.dragon_tree_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.ficus_elastica_ruby
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.ficus_elastica_ruby_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.ficus_elastica_ruby_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.ficus_elastica_ruby_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.ficus_elastica_ruby_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.ficus_elastica_ruby_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.neoregelia_purple_passion
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.neoregelia_purple_passion_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.neoregelia_purple_passion_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.neoregelia_purple_passion_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.neoregelia_purple_passion_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.neoregelia_purple_passion_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.peperomia_obtusifolia_variegata
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.peperomia_obtusifolia_variegata_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.peperomia_obtusifolia_variegata_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.peperomia_obtusifolia_variegata_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.peperomia_obtusifolia_variegata_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: >-
+                      button.peperomia_obtusifolia_variegata_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.staghorn_fern
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.staghorn_fern_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.staghorn_fern_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.staghorn_fern_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.staghorn_fern_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.staghorn_fern_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+          - type: vertical-stack
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.zz_plant
+              - type: glance
+                show_name: false
+                show_icon: true
+                show_state: true
+                state_color: true
+                entities:
+                  - entity: sensor.zz_plant_last_watering
+                    icon: mdi:calendar-clock
+                  - entity: sensor.zz_plant_last_fertilizing
+                    icon: mdi:leaf
+                  - entity: sensor.zz_plant_health
+                    icon: mdi:stethoscope
+              - type: horizontal-stack
+                cards:
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.zz_plant_complete_watering
+                    name: Water
+                    icon: mdi:watering-can
+                  - show_name: true
+                    show_icon: true
+                    type: button
+                    entity: button.zz_plant_complete_fertilizing
+                    name: Fertilize
+                    icon: mdi:cup-water
+        columns: 4

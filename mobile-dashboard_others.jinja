@@ -1,0 +1,50 @@
+title: Others
+sections:
+  - type: grid
+    cards:
+{% for plant in [
+  "alocasia_polly", "alocasia_sinuata_rumpelstiltskin", "cat_palm", "chinese_money_plant",
+  "dragon_tree", "ficus_elastica_ruby", "neoregelia_purple_passion", "peperomia_obtusifolia_variegata",
+  "staghorn_fern", "zz_plant"
+] | batch(2) %}
+      - square: false
+        type: grid
+        cards:
+{% for p in plant %}
+          - square: false
+            type: grid
+            cards:
+              - show_state: false
+                show_name: true
+                camera_view: auto
+                fit_mode: cover
+                type: picture-entity
+                entity: image.{{ p }}
+                tap_action:
+                  action: navigate
+                  navigation_path: /dashboard-mobile/{{ p }}-history
+              - type: horizontal-stack
+                cards:
+                  - type: horizontal-stack
+                    cards:
+                      - show_name: false
+                        show_icon: true
+                        type: button
+                        entity: button.{{ p }}_complete_watering
+                        icon: mdi:watering-can
+                        tap_action:
+                          action: toggle
+                      - show_name: false
+                        show_icon: true
+                        type: button
+                        entity: button.{{ p }}_complete_fertilizing
+                        icon: mdi:cup-water
+                        tap_action:
+                          action: toggle
+            columns: 1
+{% endfor %}
+        columns: 2
+{% endfor %}
+type: sections
+max_columns: 4
+cards: []
