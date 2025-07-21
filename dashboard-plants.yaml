@@ -37,12 +37,16 @@ views:
                     entity: button.aglaonema_mary_ann_complete_watering
                     name: Water
                     icon: mdi:watering-can
+                    tap_action:
+                      action: toggle
                   - show_name: true
                     show_icon: true
                     type: button
                     entity: button.aglaonema_mary_ann_complete_fertilizing
                     name: Fertilize
                     icon: mdi:cup-water
+                    tap_action:
+                      action: toggle
           - type: vertical-stack
             cards:
               - show_state: false
@@ -71,12 +75,16 @@ views:
                     entity: button.aglaonema_pictum_tricolor_complete_watering
                     name: Water
                     icon: mdi:watering-can
+                    tap_action:
+                      action: toggle
                   - show_name: true
                     show_icon: true
                     type: button
                     entity: button.aglaonema_pictum_tricolor_complete_fertilizing
                     name: Fertilize
                     icon: mdi:cup-water
+                    tap_action:
+                      action: toggle
           - type: vertical-stack
             cards:
               - show_state: false
@@ -105,12 +113,16 @@ views:
                     entity: button.aglaonema_spring_snow_complete_watering
                     name: Water
                     icon: mdi:watering-can
+                    tap_action:
+                      action: toggle
                   - show_name: true
                     show_icon: true
                     type: button
                     entity: button.aglaonema_spring_snow_complete_fertilizing
                     name: Fertilize
                     icon: mdi:cup-water
+                    tap_action:
+                      action: toggle
           - type: vertical-stack
             cards:
               - show_state: false
@@ -139,12 +151,16 @@ views:
                     entity: button.aglaonema_silver_bay_complete_watering
                     name: Water
                     icon: mdi:watering-can
+                    tap_action:
+                      action: toggle
                   - show_name: true
                     show_icon: true
                     type: button
                     entity: button.aglaonema_silver_bay_complete_fertilizing
                     name: Fertilize
                     icon: mdi:cup-water
+                    tap_action:
+                      action: toggle
         columns: 4
   - type: custom:grid-layout
     title: Air Plants
@@ -184,12 +200,16 @@ views:
                     entity: button.neofinetia_falcata_furan_complete_watering
                     name: Water
                     icon: mdi:watering-can
+                    tap_action:
+                      action: toggle
                   - show_name: true
                     show_icon: true
                     type: button
                     entity: button.neofinetia_falcata_furan_complete_fertilizing
                     name: Fertilize
                     icon: mdi:cup-water
+                    tap_action:
+                      action: toggle
           - type: vertical-stack
             cards:
               - show_state: false
