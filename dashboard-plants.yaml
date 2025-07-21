@@ -2697,6 +2697,7 @@ views:
                     type: button
                     entity: button.zz_plant_complete_fertilizing
                     name: Fertilize
+                    icon: mdi:cup-water
                     tap_action:
                       action: toggle
         columns: 4
