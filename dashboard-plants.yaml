@@ -1372,6 +1372,8 @@ views:
                     entity: button.philodendron_rojo_congo_complete_watering
                     name: Water
                     icon: mdi:watering-can
+                    tap_action:
+                      action: toggle
         columns: 4
   - type: custom:grid-layout
     title: Pothos
