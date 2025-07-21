@@ -668,6 +668,8 @@ views:
                     entity: button.tillandsia_tectorum_complete_fertilizing
                     name: Fertilize
                     icon: mdi:cup-water
+                    tap_action:
+                      action: toggle
   - type: custom:grid-layout
     title: Hoyas
     path: hoyas
@@ -828,6 +830,8 @@ views:
                     entity: button.hoya_teacup_anemone_complete_fertilizing
                     name: Fertilize
                     icon: mdi:cup-water
+                    tap_action:
+                      action: toggle
   - type: custom:grid-layout
     title: Monsteras
     path: monsteras
@@ -1026,6 +1030,8 @@ views:
                     entity: button.rhaphidophora_tetrasperma_complete_fertilizing
                     name: Fertilize
                     icon: mdi:cup-water
+                    tap_action:
+                      action: toggle
   - type: custom:grid-layout
     title: Philodendrons
     path: philodendrons
@@ -1527,6 +1533,8 @@ views:
                     entity: button.scindapsus_pictus_complete_fertilizing
                     name: Fertilize
                     icon: mdi:cup-water
+                    tap_action:
+                      action: toggle
   - type: custom:grid-layout
     title: Succulents
     path: succulents
