@@ -2303,6 +2303,8 @@ views:
                     entity: button.whale_fin_snake_plant_complete_fertilizing
                     name: Fertilize
                     icon: mdi:cup-water
+                    tap_action:
+                      action: toggle
         columns: 6
   - type: custom:grid-layout
     title: Others
@@ -2693,5 +2695,6 @@ views:
                     type: button
                     entity: button.zz_plant_complete_fertilizing
                     name: Fertilize
-                    icon: mdi:cup-water
+                    tap_action:
+                      action: toggle
         columns: 4
