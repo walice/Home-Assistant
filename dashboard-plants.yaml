@@ -238,8 +238,7 @@ views:
                     entity: button.tillandsia_baileyi_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.tillandsia_baileyi_complete_fertilizing
@@ -273,8 +272,7 @@ views:
                     entity: button.tillandsia_capitata_guzmanoides_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: >-
@@ -309,8 +307,7 @@ views:
                     entity: button.tillandsia_capitata_guzmanoides_complete_watering_2
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: >-
@@ -345,8 +342,7 @@ views:
                     entity: button.tillandsia_caput_medusae_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.tillandsia_caput_medusae_complete_fertilizing
@@ -380,8 +376,7 @@ views:
                     entity: button.tillandsia_caput_medusae_complete_watering_2
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.tillandsia_caput_medusae_complete_fertilizing_2
@@ -415,8 +410,7 @@ views:
                     entity: button.tillandsia_ionantha_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.tillandsia_ionantha_complete_fertilizing
@@ -450,8 +444,7 @@ views:
                     entity: button.tillandsia_ionantha_mexico_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.tillandsia_ionantha_mexico_complete_fertilizing
@@ -485,8 +478,7 @@ views:
                     entity: button.tillandsia_ionantha_mexico_complete_watering_2
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.tillandsia_ionantha_mexico_complete_fertilizing_2
@@ -520,8 +512,7 @@ views:
                     entity: button.tillandsia_paucifolia_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.tillandsia_paucifolia_complete_fertilizing
@@ -556,8 +547,7 @@ views:
                       button.tillandsia_streptophylla_guatemala_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: >-
@@ -592,8 +582,7 @@ views:
                     entity: button.tillandsia_tectorum_ecuador_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.tillandsia_tectorum_ecuador_complete_fertilizing
@@ -627,8 +616,7 @@ views:
                     entity: button.tillandsia_tectorum_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.tillandsia_tectorum_complete_fertilizing
@@ -672,8 +660,7 @@ views:
                     entity: button.hoya_carnosa_chelsea_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.hoya_carnosa_chelsea_complete_fertilizing
@@ -707,8 +694,7 @@ views:
                     entity: button.hoya_carnosa_krimson_princess_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.hoya_carnosa_krimson_princess_complete_fertilizing
@@ -742,8 +728,7 @@ views:
                     entity: button.hoya_mathilde_splash_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.hoya_mathilde_splash_complete_fertilizing
@@ -777,8 +762,7 @@ views:
                     entity: button.hoya_teacup_anemone_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.hoya_teacup_anemone_complete_fertilizing
@@ -822,8 +806,7 @@ views:
                     entity: button.monstera_adansonii_cutting_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.monstera_adansonii_cutting_complete_fertilizing
@@ -857,8 +840,7 @@ views:
                     entity: button.monstera_adansonii_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.monstera_adansonii_complete_fertilizing
@@ -892,8 +874,7 @@ views:
                     entity: button.monstera_albo_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.monstera_albo_complete_fertilizing
@@ -927,8 +908,7 @@ views:
                     entity: button.monstera_thai_constellation_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.monstera_thai_constellation_complete_fertilizing
@@ -962,8 +942,7 @@ views:
                     entity: button.rhaphidophora_tetrasperma_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.rhaphidophora_tetrasperma_complete_fertilizing
@@ -1007,8 +986,7 @@ views:
                     entity: button.philodendron_brasil_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.philodendron_brasil_complete_fertilizing
@@ -1042,8 +1020,7 @@ views:
                     entity: button.philodendron_brasil_complete_watering_2
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.philodendron_brasil_complete_fertilizing_2
@@ -1077,8 +1054,7 @@ views:
                     entity: button.philodendron_burle_marx_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.philodendron_burle_marx_complete_fertilizing
@@ -1112,8 +1088,7 @@ views:
                     entity: button.philodendron_florida_ghost_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.philodendron_florida_ghost_complete_fertilizing
@@ -1147,8 +1122,7 @@ views:
                     entity: button.philodendron_florida_green_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.philodendron_florida_green_complete_fertilizing
@@ -1182,8 +1156,7 @@ views:
                     entity: button.philodendron_jose_buono_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.philodendron_jose_buono_complete_fertilizing
@@ -1217,8 +1190,7 @@ views:
                     entity: button.philodendron_pink_princess_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.philodendron_pink_princess_complete_fertilizing
@@ -1252,8 +1224,7 @@ views:
                     entity: button.philodendron_pink_princess_complete_watering_2
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.philodendron_pink_princess_complete_fertilizing_2
@@ -1324,8 +1295,7 @@ views:
                     entity: button.golden_pothos_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.golden_pothos_complete_fertilizing
@@ -1359,8 +1329,7 @@ views:
                     entity: button.pothos_marble_queen_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.pothos_marble_queen_complete_fertilizing
@@ -1394,8 +1363,7 @@ views:
                     entity: button.pothos_neon_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.pothos_neon_complete_fertilizing
@@ -1429,8 +1397,7 @@ views:
                     entity: button.scindapsus_pictus_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.scindapsus_pictus_complete_fertilizing
@@ -1474,8 +1441,7 @@ views:
                     entity: button.agave_victoriae_reginae_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.agave_victoriae_reginae_complete_fertilizing
@@ -1509,8 +1475,7 @@ views:
                     entity: button.chocolate_drop_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.chocolate_drop_complete_fertilizing
@@ -1544,8 +1509,7 @@ views:
                     entity: button.corpuscularia_lehmannii_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.corpuscularia_lehmannii_complete_fertilizing
@@ -1579,8 +1543,7 @@ views:
                     entity: button.crassula_ovata_cutting_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.crassula_ovata_cutting_complete_fertilizing
@@ -1614,8 +1577,7 @@ views:
                     entity: button.crassula_ovata_gollum_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.crassula_ovata_gollum_complete_fertilizing
@@ -1649,8 +1611,7 @@ views:
                     entity: button.crassula_ovata_gollum_complete_watering_2
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.crassula_ovata_gollum_complete_fertilizing_2
@@ -1684,8 +1645,7 @@ views:
                     entity: button.crassula_ovata_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.crassula_ovata_complete_fertilizing
@@ -1719,8 +1679,7 @@ views:
                     entity: button.crassula_ovata_complete_watering_2
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.crassula_ovata_complete_fertilizing_2
@@ -1754,8 +1713,7 @@ views:
                     entity: button.gasteria_gracilis_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.gasteria_gracilis_complete_fertilizing
@@ -1789,8 +1747,7 @@ views:
                     entity: button.golden_sedum_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.golden_sedum_complete_fertilizing
@@ -1824,8 +1781,7 @@ views:
                     entity: button.golden_sedum_complete_watering_2
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.golden_sedum_complete_fertilizing_2
@@ -1859,8 +1815,7 @@ views:
                     entity: button.haworthia_attenuata_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.haworthia_attenuata_complete_fertilizing
@@ -1894,8 +1849,7 @@ views:
                     entity: button.haworthia_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.haworthia_complete_fertilizing
@@ -1929,8 +1883,7 @@ views:
                     entity: button.haworthia_limifolia_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.haworthia_limifolia_complete_fertilizing
@@ -1964,8 +1917,7 @@ views:
                     entity: button.haworthia_mirabilis_mundula_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.haworthia_mirabilis_mundula_complete_fertilizing
@@ -1999,8 +1951,7 @@ views:
                     entity: button.sansevieria_trifasciata_hahnii_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.sansevieria_trifasciata_hahnii_complete_fertilizing
@@ -2034,8 +1985,7 @@ views:
                     entity: button.schlumbergera_truncata_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.schlumbergera_truncata_complete_fertilizing
@@ -2069,8 +2019,7 @@ views:
                     entity: button.sedum_nussbaumerianum_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.sedum_nussbaumerianum_complete_fertilizing
@@ -2104,8 +2053,7 @@ views:
                     entity: button.succulent_wall_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.succulent_wall_complete_fertilizing
@@ -2139,8 +2087,7 @@ views:
                     entity: button.whale_fin_snake_plant_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.whale_fin_snake_plant_complete_fertilizing
@@ -2185,8 +2132,7 @@ views:
                     entity: button.alocasia_polly_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.alocasia_polly_complete_fertilizing
@@ -2220,8 +2166,7 @@ views:
                     entity: button.alocasia_sinuata_rumpelstiltskin_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: >-
@@ -2256,8 +2201,7 @@ views:
                     entity: button.cat_palm_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.cat_palm_complete_fertilizing
@@ -2291,8 +2235,7 @@ views:
                     entity: button.chinese_money_plant_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.chinese_money_plant_complete_fertilizing
@@ -2326,8 +2269,7 @@ views:
                     entity: button.dragon_tree_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.dragon_tree_complete_fertilizing
@@ -2361,8 +2303,7 @@ views:
                     entity: button.ficus_elastica_ruby_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.ficus_elastica_ruby_complete_fertilizing
@@ -2396,8 +2337,7 @@ views:
                     entity: button.neoregelia_purple_passion_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.neoregelia_purple_passion_complete_fertilizing
@@ -2431,8 +2371,7 @@ views:
                     entity: button.peperomia_obtusifolia_variegata_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: >-
@@ -2467,8 +2406,7 @@ views:
                     entity: button.staghorn_fern_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.staghorn_fern_complete_fertilizing
@@ -2502,8 +2440,7 @@ views:
                     entity: button.zz_plant_complete_watering
                     name: Water
                     icon: mdi:watering-can
-                    tap_action:
-                      action: toggle
+                  - show_name: true
                     show_icon: true
                     type: button
                     entity: button.zz_plant_complete_fertilizing
